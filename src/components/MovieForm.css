@@ -1,0 +1,66 @@
+#divFormulario {
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+}
+
+#titulo {
+  width: 100%;
+  margin: 5px;
+  background-color: white;
+  border: 5px white solid;
+}
+
+#movie_title {
+  background-color: transparent;
+  text-align: center;
+  border: 0px;
+}
+
+#subtitulo {
+  width: 100%;
+  margin: 5px;
+  background-color: white;
+  border: 1px black solid;
+}
+
+#movie_subtitle {
+  background-color: transparent;
+  text-align: center;
+  border: 0px;
+}
+
+#imagePath {
+  width: 100%;
+  margin: 5px;
+  background-color: white;
+  border: 1px black solid;
+}
+
+#movie_image {
+  background-color: transparent;
+  text-align: center;
+  border: 0px;
+  margin-left: 10px;
+}
+
+#sinopse {
+  width: 100%;
+  margin: 5px;
+  background-color: white;
+  border: 1px black solid;
+}
+
+#movie_storyline {
+  background-color: transparent;
+  text-align: center;
+  border: 0px;
+  margin-left: 10px;
+}
+
+#genero {
+  width: auto;
+  margin: 5px;
+  background-color: white;
+  border: 1px black solid;
+}

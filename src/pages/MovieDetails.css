@@ -1,0 +1,18 @@
+.movieDetails {
+  display: flex;
+  color: white;
+  flex-flow: column;
+  text-align: center;
+  margin: 10px;
+}
+
+.divImage {
+  align-self: center;
+  width: 70%;
+}
+
+.divLinks {
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+}
