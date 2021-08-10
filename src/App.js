@@ -15,7 +15,7 @@ function App() {
         <Link to="/movies/new">ADICIONAR CARTÃO</Link>
       </header>
       <Switch>
-        <Route exact path="/movie-crud" component={ MovieList } />
+        <Route path="/movie-crud" component={ MovieList } />
         <Route exact path="/" component={ MovieList } />
         <Route path="/movies/new" component={ NewMovie } />
         <Route
@@ -28,7 +28,7 @@ function App() {
           path="/movies/:id/edit"
           render={ (props) => <EditMovie { ...props } /> }
         />
-        <Route path="" component={ NotFound } />
+        <Route status={404} component={ NotFound } />
       </Switch>
     </BrowserRouter>
   );
