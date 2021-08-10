@@ -15,6 +15,7 @@ function App() {
         <Link to="/movies/new">ADICIONAR CARTÃO</Link>
       </header>
       <Switch>
+        <Route exact path="/movie-crud.github.io" component={ MovieList } />
         <Route exact path="/" component={ MovieList } />
         <Route path="/movies/new" component={ NewMovie } />
         <Route
