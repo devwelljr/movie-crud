@@ -119,7 +119,6 @@ class MovieForm extends React.Component {
     return (
       <div id="nota">
         <label htmlFor="movie_rating">
-          Avaliação:
           <input
             placeholder="Dê a avaliação do filme"
             id="movie_rating"
