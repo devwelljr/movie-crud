@@ -12,20 +12,20 @@ function App() {
     <BrowserRouter>
       <header>
         <h1 id="title">Movie Card Library CRUD</h1>
-        <Link to="/movies/new">ADICIONAR CARTÃO</Link>
+        <Link to="/movie-crud/movies/new">ADICIONAR CARTÃO</Link>
       </header>
       <Switch>
         <Route path="/movie-crud" component={ MovieList } />
-        <Route exact path="/" component={ MovieList } />
-        <Route path="/movies/new" component={ NewMovie } />
+        <Route exact path="/movie-crud/" component={ MovieList } />
+        <Route path="/movie-crud/movies/new" component={ NewMovie } />
         <Route
           exact
-          path="/movies/:id"
+          path="/movie-crud/movies/:id"
           render={ (props) => <MovieDetails { ...props } /> }
         />
         <Route
           exact
-          path="/movies/:id/edit"
+          path="/movie-crud/movies/:id/edit"
           render={ (props) => <EditMovie { ...props } /> }
         />
         <Route status={404} component={ NotFound } />
