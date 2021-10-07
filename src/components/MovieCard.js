@@ -22,7 +22,7 @@ class MovieCard extends React.Component {
         <section>
           <h5>{ storyline }</h5>
         </section>
-        <p><Link to={ `/movies/${id}` }>VER DETALHES</Link></p>
+        <p><Link to={ `/movie-crud/movies/${id}` }>VER DETALHES</Link></p>
       </div>
     );
   }

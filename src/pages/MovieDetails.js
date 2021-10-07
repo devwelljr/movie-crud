@@ -38,7 +38,7 @@ class MovieDetails extends Component {
 
     if (loading) return <Loading />;
 
-    if (shouldRedirect) return <Redirect to="/" />;
+    if (shouldRedirect) return <Redirect to="/movie-crud/" />;
 
     return (
       <div data-testid="movie-details" className="movieDetails">
@@ -49,9 +49,9 @@ class MovieDetails extends Component {
         <p>{ `Genre: ${genre}` }</p>
         <p>{ `Rating: ${rating}` }</p>
         <div className="divLinks">
-          <Link to={ `/movies/${id}/edit` }>EDITAR</Link>
-          <Link to="/">VOLTAR</Link>
-          <Link to="/" onClick={ this.deleteMovie }>DELETAR</Link>
+          <Link to={ `/movie-crud/movies/${id}/edit` }>EDITAR</Link>
+          <Link to="/movie-crud/">VOLTAR</Link>
+          <Link to="/movie-crud/" onClick={ this.deleteMovie }>DELETAR</Link>
         </div>
       </div>
     );
