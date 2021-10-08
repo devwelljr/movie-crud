@@ -35,7 +35,7 @@ class EditMovie extends Component {
   render() {
     const { loading, shouldRedirect, movie } = this.state;
     if (shouldRedirect) {
-      return <Redirect to="/movie-crud/" />;
+      return <Redirect to="/movie-crud" />;
     }
 
     if (loading) return <Loading />;
