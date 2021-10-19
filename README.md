@@ -1,1 +1,1 @@
-Projeto Movie-Crud desenvolvido an Trybe,  https://devwelljr.github.io/movie-crud/
+Projeto Movie-Crud desenvolvido na Trybe,  https://devwelljr.github.io/movie-crud/
